@@ -26,6 +26,18 @@ class ViewController3: UIViewController {
         
     }
 
+    //Unwind Aprende
+    @IBAction func unwindAprende(unwindSegue: UIStoryboardSegue){
+        
+    }
+    //Unwind Practica
+    @IBAction func unwindPractica(unwindSegue: UIStoryboardSegue){
+        
+    }
+    //Unwind Juega
+    @IBAction func unwindJuega(unwindSegue: UIStoryboardSegue){
+        
+    }
 
     /*
     // MARK: - Navigation
