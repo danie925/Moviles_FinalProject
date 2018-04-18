@@ -18,6 +18,13 @@
 		11CDB1332086703F005F8DB4 /* ViewControllerNaranja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */; };
 		11CDB13520867046005F8DB4 /* ViewControllerAzul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */; };
 		11F2FD4A2087EE2F00DD2A5A /* ViewControllerScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */; };
+		11F2FD4C2087F3F300DD2A5A /* j.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD4B2087F3F300DD2A5A /* j.mp4 */; };
+		11F2FD4E2087F3FB00DD2A5A /* k.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD4D2087F3FB00DD2A5A /* k.mp4 */; };
+		11F2FD502087F40200DD2A5A /* ll.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD4F2087F40200DD2A5A /* ll.mp4 */; };
+		11F2FD522087F40500DD2A5A /* q.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD512087F40500DD2A5A /* q.mp4 */; };
+		11F2FD542087F40C00DD2A5A /* rr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD532087F40C00DD2A5A /* rr.mp4 */; };
+		11F2FD562087F41000DD2A5A /* x.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD552087F41000DD2A5A /* x.mp4 */; };
+		11F2FD582087F41600DD2A5A /* z.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD572087F41600DD2A5A /* z.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNaranja.swift; sourceTree = "<group>"; };
 		11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAzul.swift; sourceTree = "<group>"; };
 		11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScroll.swift; sourceTree = "<group>"; };
+		11F2FD4B2087F3F300DD2A5A /* j.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = j.mp4; sourceTree = "<group>"; };
+		11F2FD4D2087F3FB00DD2A5A /* k.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = k.mp4; sourceTree = "<group>"; };
+		11F2FD4F2087F40200DD2A5A /* ll.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ll.mp4; sourceTree = "<group>"; };
+		11F2FD512087F40500DD2A5A /* q.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = q.mp4; sourceTree = "<group>"; };
+		11F2FD532087F40C00DD2A5A /* rr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rr.mp4; sourceTree = "<group>"; };
+		11F2FD552087F41000DD2A5A /* x.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = x.mp4; sourceTree = "<group>"; };
+		11F2FD572087F41600DD2A5A /* z.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = z.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,13 @@
 		119BDFC5208437E600759C16 = {
 			isa = PBXGroup;
 			children = (
+				11F2FD572087F41600DD2A5A /* z.mp4 */,
+				11F2FD552087F41000DD2A5A /* x.mp4 */,
+				11F2FD532087F40C00DD2A5A /* rr.mp4 */,
+				11F2FD512087F40500DD2A5A /* q.mp4 */,
+				11F2FD4F2087F40200DD2A5A /* ll.mp4 */,
+				11F2FD4D2087F3FB00DD2A5A /* k.mp4 */,
+				11F2FD4B2087F3F300DD2A5A /* j.mp4 */,
 				119BDFD0208437E600759C16 /* Proyecto_Final */,
 				119BDFCF208437E600759C16 /* Products */,
 			);
@@ -145,6 +166,13 @@
 				119BDFDC208437E700759C16 /* LaunchScreen.storyboard in Resources */,
 				119BDFD9208437E700759C16 /* Assets.xcassets in Resources */,
 				119BDFD7208437E700759C16 /* Main.storyboard in Resources */,
+				11F2FD4C2087F3F300DD2A5A /* j.mp4 in Resources */,
+				11F2FD4E2087F3FB00DD2A5A /* k.mp4 in Resources */,
+				11F2FD502087F40200DD2A5A /* ll.mp4 in Resources */,
+				11F2FD522087F40500DD2A5A /* q.mp4 in Resources */,
+				11F2FD542087F40C00DD2A5A /* rr.mp4 in Resources */,
+				11F2FD562087F41000DD2A5A /* x.mp4 in Resources */,
+				11F2FD582087F41600DD2A5A /* z.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

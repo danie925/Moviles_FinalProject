@@ -95,6 +95,8 @@
         <!--View Controller Scroll-->
         <scene sceneID="daX-qZ-wch">
             <objects>
+                <exit id="ha1-8v-i0g" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WmC-5x-SNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Qtb-te-YNg" customClass="ViewControllerScroll" customModule="Proyecto_Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5df-zu-jVU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2265"/>
@@ -205,10 +207,6 @@
                                                 <rect key="frame" x="37" y="767" width="134" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CSL-hd-Kj3">
-                                                <rect key="frame" x="204" y="767" width="134" height="110"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="I" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qwg-mp-C95">
                                                 <rect key="frame" x="103" y="884" width="45" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -223,10 +221,6 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOo-XH-c2V">
-                                                <rect key="frame" x="37" y="924" width="134" height="110"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l" translatesAutoresizingMaskIntoConstraints="NO" id="qlZ-bh-qfe">
                                                 <rect key="frame" x="204" y="924" width="134" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -289,10 +283,6 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvf-SH-jlz">
-                                                <rect key="frame" x="37" y="1395" width="134" height="110"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="r" translatesAutoresizingMaskIntoConstraints="NO" id="kd4-UT-i3Y">
                                                 <rect key="frame" x="204" y="1395" width="134" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -359,10 +349,6 @@
                                                 <rect key="frame" x="37" y="1871" width="134" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSz-SW-Xvh">
-                                                <rect key="frame" x="204" y="1871" width="134" height="110"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="W" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wrn-jS-Rdu">
                                                 <rect key="frame" x="86" y="1977" width="60" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -379,10 +365,6 @@
                                             </textField>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y" translatesAutoresizingMaskIntoConstraints="NO" id="oTc-ef-AqG">
                                                 <rect key="frame" x="37" y="2035" width="134" height="110"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M71-Gc-6pb">
-                                                <rect key="frame" x="204" y="2035" width="134" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Y" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4d4-NA-cFQ">
@@ -409,6 +391,49 @@
                                                 <connections>
                                                     <segue destination="ha1-8v-i0g" kind="unwind" unwindAction="unwindAprendeWithUnwindSegue:" id="q79-bX-UOQ"/>
                                                 </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLY-8j-wsW">
+                                                <rect key="frame" x="247" y="794" width="61" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="37"/>
+                                                <state key="normal" title="J ...">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btJWith_sender:" destination="Qtb-te-YNg" eventType="touchUpInside" id="wJ8-W3-Gqa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xui-03-PHF">
+                                                <rect key="frame" x="83" y="951" width="66" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="37"/>
+                                                <state key="normal" title="K ...">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2t-LR-5X5">
+                                                <rect key="frame" x="84" y="1422" width="70" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="37"/>
+                                                <state key="normal" title="Q ...">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-XB-Fzh">
+                                                <rect key="frame" x="252" y="1898" width="64" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="37"/>
+                                                <state key="normal" title="X ...">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3n-ye-4xZ">
+                                                <rect key="frame" x="253" y="2062" width="64" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="37"/>
+                                                <state key="normal" title="Z ...">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.7602270245552063" green="0.29745864868164062" blue="0.49012666940689087" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -438,9 +463,31 @@
                         <viewLayoutGuide key="safeArea" id="9mM-z4-ZWw"/>
                     </view>
                     <size key="freeformSize" width="375" height="2265"/>
+                    <connections>
+                        <outlet property="imgA" destination="heO-Nc-XTc" id="fOM-e9-jSW"/>
+                        <outlet property="imgB" destination="vDh-4K-hH1" id="Aht-TH-igc"/>
+                        <outlet property="imgC" destination="6hy-uR-CHO" id="uug-PC-4b6"/>
+                        <outlet property="imgD" destination="oEs-La-rsF" id="cTL-D4-str"/>
+                        <outlet property="imgE" destination="cK9-Ig-q74" id="Dfk-DN-G10"/>
+                        <outlet property="imgF" destination="slK-yX-GCM" id="PNd-w1-MVm"/>
+                        <outlet property="imgG" destination="dcg-dq-yoB" id="KRR-P1-QRm"/>
+                        <outlet property="imgH" destination="yp8-Ey-WMe" id="kB1-BB-2EY"/>
+                        <outlet property="imgI" destination="OeY-bd-lrL" id="xSN-qa-eb9"/>
+                        <outlet property="imgL" destination="qlZ-bh-qfe" id="96f-1Q-Rba"/>
+                        <outlet property="imgM" destination="71S-Ku-VGV" id="mPJ-d8-hba"/>
+                        <outlet property="imgN" destination="6MX-wH-yOS" id="y34-tP-NwY"/>
+                        <outlet property="imgO" destination="VVc-YX-KYe" id="knU-tS-9fS"/>
+                        <outlet property="imgP" destination="ewm-Oo-0Y9" id="lfe-RN-lW6"/>
+                        <outlet property="imgR" destination="kd4-UT-i3Y" id="pZd-Xm-srK"/>
+                        <outlet property="imgS" destination="37R-D1-1fq" id="bTm-gU-ugK"/>
+                        <outlet property="imgT" destination="HZw-El-69e" id="Lnd-gV-qUB"/>
+                        <outlet property="imgU" destination="EgC-1N-t1b" id="V1e-W6-iYR"/>
+                        <outlet property="imgV" destination="C89-Pg-C7c" id="ybw-gh-blI"/>
+                        <outlet property="imgW" destination="Tj0-G1-39S" id="fuh-SD-GdY"/>
+                        <outlet property="imgY" destination="oTc-ef-AqG" id="bgI-WP-gW5"/>
+                        <outlet property="scrollView" destination="jFy-NJ-4YH" id="wb6-kh-bYd"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WmC-5x-SNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="ha1-8v-i0g" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2981.5999999999999" y="-316.19190404797604"/>
         </scene>
