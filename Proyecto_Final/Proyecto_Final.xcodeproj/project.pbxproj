@@ -17,6 +17,7 @@
 		11A5365A2085A2E200461312 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A536592085A2E200461312 /* TableViewController.swift */; };
 		11CDB1332086703F005F8DB4 /* ViewControllerNaranja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */; };
 		11CDB13520867046005F8DB4 /* ViewControllerAzul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */; };
+		11F2FD4A2087EE2F00DD2A5A /* ViewControllerScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		11A536592085A2E200461312 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNaranja.swift; sourceTree = "<group>"; };
 		11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAzul.swift; sourceTree = "<group>"; };
+		11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		119BDFD0208437E600759C16 /* Proyecto_Final */ = {
 			isa = PBXGroup;
 			children = (
+				11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */,
 				11A536552085A23A00461312 /* ViewController2.swift */,
 				119BDFD1208437E700759C16 /* AppDelegate.swift */,
 				119BDFD3208437E700759C16 /* ViewController.swift */,
@@ -155,6 +158,7 @@
 				119BDFD4208437E700759C16 /* ViewController.swift in Sources */,
 				119BDFD2208437E700759C16 /* AppDelegate.swift in Sources */,
 				11CDB1332086703F005F8DB4 /* ViewControllerNaranja.swift in Sources */,
+				11F2FD4A2087EE2F00DD2A5A /* ViewControllerScroll.swift in Sources */,
 				11CDB13520867046005F8DB4 /* ViewControllerAzul.swift in Sources */,
 				11A536582085A25100461312 /* ViewController3.swift in Sources */,
 				11A5365A2085A2E200461312 /* TableViewController.swift in Sources */,
