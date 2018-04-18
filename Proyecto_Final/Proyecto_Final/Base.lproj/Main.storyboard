@@ -410,6 +410,9 @@
                                                 <state key="normal" title="K ...">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btK:" destination="Qtb-te-YNg" eventType="touchUpInside" id="Clz-qB-7XU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2t-LR-5X5">
                                                 <rect key="frame" x="84" y="1422" width="70" height="56"/>
@@ -418,6 +421,9 @@
                                                 <state key="normal" title="Q ...">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btQ:" destination="Qtb-te-YNg" eventType="touchUpInside" id="Ixb-QY-bbj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-XB-Fzh">
                                                 <rect key="frame" x="252" y="1898" width="64" height="56"/>
@@ -426,6 +432,9 @@
                                                 <state key="normal" title="X ...">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btX:" destination="Qtb-te-YNg" eventType="touchUpInside" id="gZo-3i-kys"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3n-ye-4xZ">
                                                 <rect key="frame" x="253" y="2062" width="64" height="56"/>
@@ -434,6 +443,9 @@
                                                 <state key="normal" title="Z ...">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btZ:" destination="Qtb-te-YNg" eventType="touchUpInside" id="Uxg-xR-H6Z"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.7602270245552063" green="0.29745864868164062" blue="0.49012666940689087" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
