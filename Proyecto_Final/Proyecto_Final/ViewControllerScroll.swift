@@ -100,9 +100,7 @@ class ViewControllerScroll: UIViewController, UIScrollViewDelegate {
                 videoZ.play()
             })
         }
-    }
-    
-    
+    }        
     
     override func viewDidLoad() {
         super.viewDidLoad()
