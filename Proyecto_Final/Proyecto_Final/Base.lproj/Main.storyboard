@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,29 +25,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bienvenidos" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-hy-veQ">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bienvenidos" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vC7-hy-veQ">
                                 <rect key="frame" x="16" y="290" width="293" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97083979845046997" green="0.71417242288589478" blue="0.0091287428513169289" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vC7-hy-veQ" secondAttribute="height" multiplier="293:44" id="nwN-Xu-eet"/>
+                                </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="300"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lenguaje de señas mexicano" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h9L-uR-OSe">
-                                <rect key="frame" x="16" y="342" width="264" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lenguaje de señas mexicano" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h9L-uR-OSe">
+                                <rect key="frame" x="16" y="342" width="281" height="21"/>
                                 <color key="backgroundColor" red="0.97083979845046997" green="0.71417242288589478" blue="0.0091287428513169289" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lengua-señas-2-830x415" translatesAutoresizingMaskIntoConstraints="NO" id="SET-DG-Sk3">
-                                <rect key="frame" x="16" y="371" width="245" height="138"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AAS" translatesAutoresizingMaskIntoConstraints="NO" id="SET-DG-Sk3">
+                                <rect key="frame" x="16" y="371" width="206" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqx-fd-cIZ">
-                                <rect key="frame" x="275" y="20" width="84" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqx-fd-cIZ">
+                                <rect key="frame" x="288" y="20" width="71" height="32"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Siguiente">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,6 +58,19 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97477000951766968" green="0.71812796592712402" blue="0.0056634009815752506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vC7-hy-veQ" firstAttribute="leading" secondItem="h9L-uR-OSe" secondAttribute="leading" id="9Nk-up-HLd"/>
+                            <constraint firstItem="vC7-hy-veQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="290" id="Fcf-4v-OFJ"/>
+                            <constraint firstItem="vC7-hy-veQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JnV-4J-Ku3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vC7-hy-veQ" secondAttribute="trailing" constant="66" id="V3F-yc-gRI"/>
+                            <constraint firstItem="h9L-uR-OSe" firstAttribute="top" secondItem="vC7-hy-veQ" secondAttribute="bottom" constant="8" id="YS8-wu-4Ij"/>
+                            <constraint firstItem="pqx-fd-cIZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aMq-hW-eNA"/>
+                            <constraint firstItem="h9L-uR-OSe" firstAttribute="top" secondItem="vC7-hy-veQ" secondAttribute="bottom" constant="8" id="aPN-V0-lOS"/>
+                            <constraint firstItem="h9L-uR-OSe" firstAttribute="top" secondItem="vC7-hy-veQ" secondAttribute="bottom" constant="8" id="bU0-v9-gOg"/>
+                            <constraint firstItem="pqx-fd-cIZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="l9R-Ys-jCB"/>
+                            <constraint firstItem="h9L-uR-OSe" firstAttribute="top" secondItem="vC7-hy-veQ" secondAttribute="bottom" constant="8" symbolic="YES" id="owr-3O-L1L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pqx-fd-cIZ" secondAttribute="trailing" constant="16" id="xKe-TH-6sv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -71,9 +86,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP3-C8-h8s">
-                                <rect key="frame" x="16" y="20" width="84" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP3-C8-h8s">
+                                <rect key="frame" x="16" y="16" width="63" height="32"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Regresa">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -84,6 +98,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91517865657806396" green="0.33769574761390686" blue="0.22419115900993347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AP3-C8-h8s" firstAttribute="top" secondItem="Ign-tE-I1I" secondAttribute="top" constant="-4" id="AUN-FU-hzF"/>
+                            <constraint firstItem="AP3-C8-h8s" firstAttribute="leading" secondItem="Ign-tE-I1I" secondAttribute="leading" constant="16" id="yib-hV-fZ3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ign-tE-I1I"/>
                     </view>
                 </viewController>
@@ -379,17 +397,6 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fu-gg-Mv9">
-                                                <rect key="frame" x="28" y="16" width="84" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                <state key="normal" title="Regresa">
-                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="ha1-8v-i0g" kind="unwind" unwindAction="unwindAprendeWithUnwindSegue:" id="q79-bX-UOQ"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLY-8j-wsW">
                                                 <rect key="frame" x="247" y="794" width="61" height="56"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -470,9 +477,21 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fu-gg-Mv9">
+                                                <rect key="frame" x="16" y="16" width="63" height="32"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="Regresa">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="ha1-8v-i0g" kind="unwind" unwindAction="unwindAprendeWithUnwindSegue:" id="q79-bX-UOQ"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.7602270245552063" green="0.29745864868164062" blue="0.49012666940689087" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="0fu-gg-Mv9" firstAttribute="leading" secondItem="jFy-NJ-4YH" secondAttribute="leading" constant="16" id="CdN-sg-mjR"/>
+                                            <constraint firstItem="0fu-gg-Mv9" firstAttribute="top" secondItem="jFy-NJ-4YH" secondAttribute="top" constant="16" id="QnK-4y-U9c"/>
                                             <constraint firstAttribute="height" constant="2265" id="WGn-QI-wgl"/>
                                         </constraints>
                                     </view>
@@ -536,9 +555,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ua7-fj-NUh">
-                                <rect key="frame" x="16" y="20" width="84" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ua7-fj-NUh">
+                                <rect key="frame" x="0.0" y="16" width="79" height="32"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Regresa">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -549,6 +567,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.07179521769285202" green="0.53081494569778442" blue="0.69756072759628296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ua7-fj-NUh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NPi-vT-wyQ" secondAttribute="leading" id="AOE-YW-vKq"/>
+                            <constraint firstItem="Ua7-fj-NUh" firstAttribute="top" secondItem="AKP-h0-ZQd" secondAttribute="top" constant="16" id="GcS-f5-6pi"/>
+                            <constraint firstItem="Ua7-fj-NUh" firstAttribute="leading" secondItem="NPi-vT-wyQ" secondAttribute="leading" id="KgG-xg-5Gj"/>
+                            <constraint firstItem="Ua7-fj-NUh" firstAttribute="top" secondItem="AKP-h0-ZQd" secondAttribute="top" constant="16" id="OUS-DF-SAV"/>
+                            <constraint firstItem="Ua7-fj-NUh" firstAttribute="top" secondItem="NPi-vT-wyQ" secondAttribute="top" constant="-4" id="WLh-Sq-Syw"/>
+                            <constraint firstAttribute="trailing" secondItem="Ua7-fj-NUh" secondAttribute="trailing" constant="296" id="bDd-Zs-89q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NPi-vT-wyQ"/>
                     </view>
                 </viewController>
@@ -608,9 +634,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Q6-ek-GfQ">
-                                <rect key="frame" x="275" y="20" width="84" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Q6-ek-GfQ">
+                                <rect key="frame" x="296" y="20" width="63" height="32"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Regresa">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -621,6 +646,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.73641479015350342" green="0.2890399694442749" blue="0.50294721126556396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dV0-EZ-hGa" firstAttribute="trailing" secondItem="1Q6-ek-GfQ" secondAttribute="trailing" constant="16" id="Sk6-Q7-gq5"/>
+                            <constraint firstItem="1Q6-ek-GfQ" firstAttribute="top" secondItem="dV0-EZ-hGa" secondAttribute="top" id="jgi-94-zbK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dV0-EZ-hGa"/>
                     </view>
                 </viewController>
@@ -637,13 +666,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBx-Fq-3eD">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBx-Fq-3eD">
                                 <rect key="frame" x="0.0" y="438" width="375" height="229"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXa-1M-bTb">
-                                        <rect key="frame" x="8" y="189" width="91" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXa-1M-bTb">
+                                        <rect key="frame" x="16" y="189" width="91" height="32"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Información">
                                             <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -654,14 +681,16 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="bXa-1M-bTb" firstAttribute="leading" secondItem="GBx-Fq-3eD" secondAttribute="leading" constant="16" id="CM2-Dd-7lN"/>
+                                    <constraint firstAttribute="bottom" secondItem="bXa-1M-bTb" secondAttribute="bottom" constant="8" id="FFF-hu-q48"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iYL-4j-PZ0">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYL-4j-PZ0">
                                 <rect key="frame" x="29" y="287" width="317" height="269"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMt-Od-2vL">
-                                        <rect key="frame" x="103" y="49" width="113" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMt-Od-2vL">
+                                        <rect key="frame" x="103" y="49" width="113" height="44"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
                                         <state key="normal" title="Aprende">
                                             <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -670,20 +699,8 @@
                                             <segue destination="Qtb-te-YNg" kind="show" id="RTq-Rq-eqo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXJ-PB-dtD">
-                                        <rect key="frame" x="103" y="111" width="112" height="46"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
-                                        <state key="normal" title="Practica">
-                                            <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="dgZ-fR-h3b" kind="show" id="xH6-WK-fdy"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PF-WH-wdX">
-                                        <rect key="frame" x="111" y="177" width="97" height="47"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PF-WH-wdX">
+                                        <rect key="frame" x="111" y="180" width="97" height="44"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
                                         <state key="normal" title="Juega">
                                             <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -694,9 +711,39 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5PF-WH-wdX" secondAttribute="trailing" constant="109" id="0uo-se-aUo"/>
+                                    <constraint firstAttribute="bottom" secondItem="5PF-WH-wdX" secondAttribute="bottom" constant="45" id="PEX-2m-oTa"/>
+                                    <constraint firstItem="5PF-WH-wdX" firstAttribute="leading" secondItem="iYL-4j-PZ0" secondAttribute="leading" constant="111" id="Tib-RE-eU2"/>
+                                    <constraint firstItem="ZMt-Od-2vL" firstAttribute="leading" secondItem="iYL-4j-PZ0" secondAttribute="leading" constant="103" id="Yyf-ak-DSd"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZMt-Od-2vL" secondAttribute="trailing" constant="101" id="mYI-YI-FT7"/>
+                                    <constraint firstItem="ZMt-Od-2vL" firstAttribute="top" secondItem="iYL-4j-PZ0" secondAttribute="top" constant="49" id="mnf-KT-Oxj"/>
+                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXJ-PB-dtD">
+                                <rect key="frame" x="138" y="401" width="99" height="44"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <state key="normal" title="Practica">
+                                    <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dgZ-fR-h3b" kind="show" id="xH6-WK-fdy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.60547083616256714" blue="0.20945289731025696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VXJ-PB-dtD" firstAttribute="centerX" secondItem="GBx-Fq-3eD" secondAttribute="centerX" id="0ZQ-3E-VuU"/>
+                            <constraint firstItem="GBx-Fq-3eD" firstAttribute="trailing" secondItem="Kyl-ax-xfV" secondAttribute="trailing" id="1cn-hL-mXF"/>
+                            <constraint firstItem="GBx-Fq-3eD" firstAttribute="top" secondItem="Kyl-ax-xfV" secondAttribute="top" constant="418" id="3b9-Cj-7JD"/>
+                            <constraint firstItem="iYL-4j-PZ0" firstAttribute="top" secondItem="Kyl-ax-xfV" secondAttribute="top" constant="267" id="H2t-ap-wEY"/>
+                            <constraint firstItem="GBx-Fq-3eD" firstAttribute="centerX" secondItem="iYL-4j-PZ0" secondAttribute="centerX" id="WCa-y3-qLL"/>
+                            <constraint firstItem="iYL-4j-PZ0" firstAttribute="leading" secondItem="Kyl-ax-xfV" secondAttribute="leading" constant="29" id="Xdp-Oi-mV4"/>
+                            <constraint firstItem="GBx-Fq-3eD" firstAttribute="bottom" secondItem="Kyl-ax-xfV" secondAttribute="bottom" id="cOa-Y4-HEt"/>
+                            <constraint firstItem="VXJ-PB-dtD" firstAttribute="top" secondItem="Kyl-ax-xfV" secondAttribute="top" constant="381" id="mUy-8N-PA4"/>
+                            <constraint firstItem="GBx-Fq-3eD" firstAttribute="leading" secondItem="Kyl-ax-xfV" secondAttribute="leading" id="nJR-pK-Wpf"/>
+                            <constraint firstItem="Kyl-ax-xfV" firstAttribute="bottom" secondItem="iYL-4j-PZ0" secondAttribute="bottom" constant="111" id="wmx-ZV-04S"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Kyl-ax-xfV"/>
                     </view>
                 </viewController>
@@ -706,6 +753,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AAS" width="960" height="480"/>
         <image name="a" width="640" height="480"/>
         <image name="b" width="640" height="480"/>
         <image name="c" width="640" height="480"/>
@@ -716,7 +764,6 @@
         <image name="h" width="640" height="480"/>
         <image name="i" width="640" height="480"/>
         <image name="l" width="640" height="480"/>
-        <image name="lengua-señas-2-830x415" width="830" height="415"/>
         <image name="m" width="640" height="480"/>
         <image name="n" width="640" height="480"/>
         <image name="o" width="640" height="480"/>
