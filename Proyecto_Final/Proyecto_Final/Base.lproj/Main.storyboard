@@ -546,7 +546,7 @@
                 <exit id="ha1-8v-i0g" userLabel="Exit" sceneMemberID="exit"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WmC-5x-SNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2981.5999999999999" y="-316.19190404797604"/>
+            <point key="canvasLocation" x="4719" y="-318"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wex-7c-PRg">
@@ -752,6 +752,101 @@
                                     <segue destination="MO4-HG-hfV" kind="unwind" unwindAction="unwindJuegaWithUnwindSegue:" id="dRQ-Az-lC5"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_k" translatesAutoresizingMaskIntoConstraints="NO" id="XoP-zy-wjg">
+                                <rect key="frame" x="223" y="406" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_j" translatesAutoresizingMaskIntoConstraints="NO" id="kKK-Vl-eUw">
+                                <rect key="frame" x="154" y="406" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_i" translatesAutoresizingMaskIntoConstraints="NO" id="E6o-Eu-YOM">
+                                <rect key="frame" x="292" y="406" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_h" translatesAutoresizingMaskIntoConstraints="NO" id="8t2-GU-81m">
+                                <rect key="frame" x="85" y="406" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_g" translatesAutoresizingMaskIntoConstraints="NO" id="lcO-SH-mfA">
+                                <rect key="frame" x="16" y="406" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_k" translatesAutoresizingMaskIntoConstraints="NO" id="B8Y-Hp-Zqb">
+                                <rect key="frame" x="223" y="489" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_j" translatesAutoresizingMaskIntoConstraints="NO" id="4v7-3x-3iO">
+                                <rect key="frame" x="154" y="489" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_i" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-W7-SqA">
+                                <rect key="frame" x="292" y="489" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_h" translatesAutoresizingMaskIntoConstraints="NO" id="qXN-9y-Jr7">
+                                <rect key="frame" x="85" y="489" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_g" translatesAutoresizingMaskIntoConstraints="NO" id="PLd-GE-gFK">
+                                <rect key="frame" x="16" y="489" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_k" translatesAutoresizingMaskIntoConstraints="NO" id="vxo-8N-1gf">
+                                <rect key="frame" x="223" y="572" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_j" translatesAutoresizingMaskIntoConstraints="NO" id="add-as-PLC">
+                                <rect key="frame" x="154" y="572" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_i" translatesAutoresizingMaskIntoConstraints="NO" id="I45-do-aBs">
+                                <rect key="frame" x="292" y="572" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_h" translatesAutoresizingMaskIntoConstraints="NO" id="XRo-un-D4O">
+                                <rect key="frame" x="85" y="572" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_g" translatesAutoresizingMaskIntoConstraints="NO" id="vBV-7N-1vV">
+                                <rect key="frame" x="16" y="572" width="65" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="x3F-GU-18k">
+                                <rect key="frame" x="39" y="194" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="uHB-Sh-4al">
+                                <rect key="frame" x="160" y="194" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="rxB-9W-JO5">
+                                <rect key="frame" x="221" y="194" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="c7A-Hq-Q0c">
+                                <rect key="frame" x="282" y="194" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="jL2-BO-xEW">
+                                <rect key="frame" x="100" y="194" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Palabra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jA5-V4-yrO">
+                                <rect key="frame" x="16" y="56" width="343" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="W9F-uz-bia">
+                                <rect key="frame" x="190" y="261" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_barra" translatesAutoresizingMaskIntoConstraints="NO" id="hMF-4i-ly9">
+                                <rect key="frame" x="129" y="261" width="53" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.07179521769285202" green="0.53081494569778442" blue="0.69756072759628296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -764,11 +859,35 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NPi-vT-wyQ"/>
                     </view>
+                    <connections>
+                        <outlet property="opcion1" destination="lcO-SH-mfA" id="7SC-LK-VTU"/>
+                        <outlet property="opcion10" destination="kDN-W7-SqA" id="MaI-Zq-SAT"/>
+                        <outlet property="opcion11" destination="vBV-7N-1vV" id="1cv-ZG-FjQ"/>
+                        <outlet property="opcion12" destination="XRo-un-D4O" id="ZHD-7G-wbJ"/>
+                        <outlet property="opcion13" destination="add-as-PLC" id="1fp-Dx-FF7"/>
+                        <outlet property="opcion14" destination="vxo-8N-1gf" id="UuT-A5-u8c"/>
+                        <outlet property="opcion15" destination="I45-do-aBs" id="2qn-bR-iGy"/>
+                        <outlet property="opcion2" destination="8t2-GU-81m" id="KbW-1N-qpd"/>
+                        <outlet property="opcion3" destination="kKK-Vl-eUw" id="u5I-Wz-Lat"/>
+                        <outlet property="opcion4" destination="XoP-zy-wjg" id="nqj-gj-N0x"/>
+                        <outlet property="opcion5" destination="E6o-Eu-YOM" id="lXw-V6-TJS"/>
+                        <outlet property="opcion6" destination="PLd-GE-gFK" id="kho-ah-3WQ"/>
+                        <outlet property="opcion7" destination="qXN-9y-Jr7" id="7Tk-JA-DpT"/>
+                        <outlet property="opcion8" destination="4v7-3x-3iO" id="ubc-lM-tnn"/>
+                        <outlet property="opcion9" destination="B8Y-Hp-Zqb" id="B4L-VM-dFS"/>
+                        <outlet property="seleccion1" destination="x3F-GU-18k" id="GnF-EC-mZj"/>
+                        <outlet property="seleccion2" destination="jL2-BO-xEW" id="ZOf-h8-3gB"/>
+                        <outlet property="seleccion3" destination="uHB-Sh-4al" id="Sqj-P9-UwD"/>
+                        <outlet property="seleccion4" destination="rxB-9W-JO5" id="ayr-yz-owR"/>
+                        <outlet property="seleccion5" destination="c7A-Hq-Q0c" id="95q-Qs-6jY"/>
+                        <outlet property="seleccion6" destination="hMF-4i-ly9" id="QUB-2W-hol"/>
+                        <outlet property="seleccion7" destination="W9F-uz-bia" id="rpQ-0C-giJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9A-mX-EeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="MO4-HG-hfV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2137" y="1150"/>
+            <point key="canvasLocation" x="2136.8000000000002" y="1149.1754122938532"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="gnD-CT-uxF">
@@ -954,6 +1073,12 @@
         <image name="g" width="640" height="480"/>
         <image name="h" width="640" height="480"/>
         <image name="i" width="640" height="480"/>
+        <image name="juego_barra" width="657" height="524"/>
+        <image name="juego_g" width="100" height="115"/>
+        <image name="juego_h" width="101" height="116"/>
+        <image name="juego_i" width="101" height="116"/>
+        <image name="juego_j" width="101" height="116"/>
+        <image name="juego_k" width="101" height="116"/>
         <image name="l" width="640" height="480"/>
         <image name="m" width="640" height="480"/>
         <image name="n" width="640" height="480"/>
