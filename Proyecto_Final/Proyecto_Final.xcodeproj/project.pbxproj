@@ -25,6 +25,10 @@
 		11F2FD542087F40C00DD2A5A /* rr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD532087F40C00DD2A5A /* rr.mp4 */; };
 		11F2FD562087F41000DD2A5A /* x.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD552087F41000DD2A5A /* x.mp4 */; };
 		11F2FD582087F41600DD2A5A /* z.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD572087F41600DD2A5A /* z.mp4 */; };
+		DE6D59AB208D76BD007D6B48 /* LSM_resnet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59AA208D76BD007D6B48 /* LSM_resnet.mlmodel */; };
+		DE6D59B0208D8306007D6B48 /* ModelBW.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59AF208D8306007D6B48 /* ModelBW.mlmodel */; };
+		DE6D59B2208D952F007D6B48 /* Mobile_NetCM.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59B1208D952F007D6B48 /* Mobile_NetCM.mlmodel */; };
+		DE6D59B8208DA3EC007D6B48 /* MobileNet_CM17.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59B7208DA3EC007D6B48 /* MobileNet_CM17.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		11F2FD532087F40C00DD2A5A /* rr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rr.mp4; sourceTree = "<group>"; };
 		11F2FD552087F41000DD2A5A /* x.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = x.mp4; sourceTree = "<group>"; };
 		11F2FD572087F41600DD2A5A /* z.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = z.mp4; sourceTree = "<group>"; };
+		DE6D59AA208D76BD007D6B48 /* LSM_resnet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LSM_resnet.mlmodel; sourceTree = "<group>"; };
+		DE6D59AF208D8306007D6B48 /* ModelBW.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ModelBW.mlmodel; path = ../../../../../../LSM_Completo/ModelBW.mlmodel; sourceTree = "<group>"; };
+		DE6D59B1208D952F007D6B48 /* Mobile_NetCM.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mobile_NetCM.mlmodel; path = ../../../../../../LSM_Completo/Mobile_NetCM.mlmodel; sourceTree = "<group>"; };
+		DE6D59B7208DA3EC007D6B48 /* MobileNet_CM17.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet_CM17.mlmodel; path = "../../../../../../sign2text-master/MobileNet_CM17.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,23 @@
 				11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */,
 				11A536592085A2E200461312 /* TableViewController.swift */,
 				11A536572085A25100461312 /* ViewController3.swift */,
+				DE6D59AE208D82D2007D6B48 /* Models */,
 				119BDFD8208437E700759C16 /* Assets.xcassets */,
 				119BDFDA208437E700759C16 /* LaunchScreen.storyboard */,
 				119BDFDD208437E700759C16 /* Info.plist */,
 			);
 			path = Proyecto_Final;
+			sourceTree = "<group>";
+		};
+		DE6D59AE208D82D2007D6B48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D59B7208DA3EC007D6B48 /* MobileNet_CM17.mlmodel */,
+				DE6D59B1208D952F007D6B48 /* Mobile_NetCM.mlmodel */,
+				DE6D59AF208D8306007D6B48 /* ModelBW.mlmodel */,
+				DE6D59AA208D76BD007D6B48 /* LSM_resnet.mlmodel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,14 +203,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6D59B8208DA3EC007D6B48 /* MobileNet_CM17.mlmodel in Sources */,
+				DE6D59AB208D76BD007D6B48 /* LSM_resnet.mlmodel in Sources */,
 				119BDFD4208437E700759C16 /* ViewController.swift in Sources */,
 				119BDFD2208437E700759C16 /* AppDelegate.swift in Sources */,
 				11CDB1332086703F005F8DB4 /* ViewControllerNaranja.swift in Sources */,
+				DE6D59B0208D8306007D6B48 /* ModelBW.mlmodel in Sources */,
 				11F2FD4A2087EE2F00DD2A5A /* ViewControllerScroll.swift in Sources */,
 				11CDB13520867046005F8DB4 /* ViewControllerAzul.swift in Sources */,
 				11A536582085A25100461312 /* ViewController3.swift in Sources */,
 				11A5365A2085A2E200461312 /* TableViewController.swift in Sources */,
 				11A536562085A23A00461312 /* ViewController2.swift in Sources */,
+				DE6D59B2208D952F007D6B48 /* Mobile_NetCM.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +270,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -264,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -303,6 +329,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -315,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -328,12 +356,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8CZQX75A26;
+				DEVELOPMENT_TEAM = KA79L534CU;
 				INFOPLIST_FILE = Proyecto_Final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Proyecto-Final";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Proyecto-Final12";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -345,12 +376,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8CZQX75A26;
+				DEVELOPMENT_TEAM = KA79L534CU;
 				INFOPLIST_FILE = Proyecto_Final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Proyecto-Final";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Proyecto-Final12";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
