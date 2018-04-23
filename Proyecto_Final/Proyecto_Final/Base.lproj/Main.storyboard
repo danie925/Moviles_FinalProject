@@ -14,9 +14,6 @@
         <array key="HelveticaNeue.ttc">
             <string>HelveticaNeue</string>
         </array>
-        <array key="ZapfDingbats.ttf">
-            <string>ZapfDingbatsITC</string>
-        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -703,14 +700,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ua7-fj-NUh">
-                                <rect key="frame" x="0.0" y="16" width="79" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ua7-fj-NUh">
+                                <rect key="frame" x="0.0" y="16" width="125" height="32"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Regresa">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MO4-HG-hfV" kind="unwind" unwindAction="unwindJuegaWithUnwindSegue:" id="dRQ-Az-lC5"/>
+                                    <segue destination="MO4-HG-hfV" kind="unwind" unwindAction="unwindJuegaWithUnwindSegue:" id="tLJ-hI-ptT"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juego_k" translatesAutoresizingMaskIntoConstraints="NO" id="XoP-zy-wjg">
@@ -848,7 +845,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9A-mX-EeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="MO4-HG-hfV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2497" y="-2180"/>
+            <point key="canvasLocation" x="2496.8000000000002" y="-2180.0599700149928"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="gnD-CT-uxF">
@@ -930,10 +927,10 @@
             </objects>
             <point key="canvasLocation" x="910" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu Juegos View Controller-->
         <scene sceneID="Fs0-6e-dsg">
             <objects>
-                <viewController id="9zF-kK-24n" sceneMemberID="viewController">
+                <viewController id="9zF-kK-24n" customClass="MenuJuegosViewController" customModule="Proyecto_Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="vy7-7e-Y69">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -983,21 +980,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" editable="NO" text="0" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQO-7t-rEV">
-                                <rect key="frame" x="187" y="91" width="187" height="47"/>
+                                <rect key="frame" x="187" y="91" width="188" height="47"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir7-5x-8Dp">
-                                <rect key="frame" x="0.0" y="91" width="188" height="47"/>
+                                <rect key="frame" x="0.0" y="91" width="187" height="47"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <string key="text">2	</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.34999999403953552" contentMode="scaleToFill" editable="NO" text="A" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-kt-QHF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.54999999403953603" contentMode="scaleToFill" editable="NO" text="A" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-kt-QHF">
                                 <rect key="frame" x="0.0" y="146" width="375" height="104"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1005,7 +1002,7 @@
                                     <constraint firstAttribute="width" constant="375" id="XL5-HH-ggd"/>
                                 </constraints>
                                 <color key="textColor" red="0.94505859380000001" green="0.1576354553" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.34999999403953552" contentMode="scaleToFill" editable="NO" text="a" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dZu-vj-MQ2">
@@ -1016,28 +1013,29 @@
                                     <constraint firstAttribute="height" constant="84" id="mbF-2G-dI2"/>
                                 </constraints>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HAU-43-v0u">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="HAU-43-v0u">
                                 <rect key="frame" x="0.0" y="54" width="375" height="37"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">High Score				Score</string>
+                                <string key="text">     High Score			  Score</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkS-nz-siD">
-                                <rect key="frame" x="0.0" y="20" width="374" height="34"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.64618288590604023" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkS-nz-siD">
+                                <rect key="frame" x="0.0" y="20" width="381" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Regresar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IPp-R2-9se" kind="unwind" unwindAction="unwindPracticaWithUnwindSegue:" id="dVH-Xb-35N"/>
+                                    <segue destination="IPp-R2-9se" kind="unwind" unwindAction="unwindPracticaWithUnwindSegue:" id="tHR-pp-lkG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJV-Zg-lDA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Presione para jugar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJV-Zg-lDA">
                                 <rect key="frame" x="16" y="304" width="343" height="48"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.53027999161073824" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1050,24 +1048,28 @@
                             <constraint firstItem="tvR-kt-QHF" firstAttribute="top" secondItem="ir7-5x-8Dp" secondAttribute="bottom" constant="8" id="3AG-HG-pP7"/>
                             <constraint firstItem="ir7-5x-8Dp" firstAttribute="top" secondItem="5zu-Iq-2ZY" secondAttribute="top" constant="71" id="5rG-gQ-K2T"/>
                             <constraint firstItem="tvR-kt-QHF" firstAttribute="top" secondItem="DQO-7t-rEV" secondAttribute="bottom" constant="8" id="84T-95-E0v"/>
-                            <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="DQO-7t-rEV" secondAttribute="trailing" constant="1" id="Cwl-cP-G1V"/>
+                            <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="DQO-7t-rEV" secondAttribute="trailing" id="Cwl-cP-G1V"/>
                             <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="dZu-vj-MQ2" secondAttribute="trailing" id="Dm9-Ff-vRk"/>
                             <constraint firstItem="DQO-7t-rEV" firstAttribute="centerX" secondItem="5zu-Iq-2ZY" secondAttribute="centerX" constant="93" id="NUW-hM-BuO"/>
                             <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="HAU-43-v0u" secondAttribute="trailing" id="ShP-eM-pTP"/>
                             <constraint firstItem="DQO-7t-rEV" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" constant="187" id="Tir-NI-jbX"/>
+                            <constraint firstItem="ir7-5x-8Dp" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" id="V47-D8-tJJ"/>
                             <constraint firstItem="zkS-nz-siD" firstAttribute="top" secondItem="HAU-43-v0u" secondAttribute="top" constant="-34" id="VA7-rC-57B"/>
                             <constraint firstItem="5zu-Iq-2ZY" firstAttribute="top" secondItem="HAU-43-v0u" secondAttribute="top" constant="-34" id="Wtf-5f-hco"/>
+                            <constraint firstItem="HAU-43-v0u" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" id="XUb-vC-Xv2"/>
                             <constraint firstItem="zkS-nz-siD" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" id="Y2t-kD-l8o"/>
                             <constraint firstItem="dZu-vj-MQ2" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" id="bqs-Ja-RND"/>
-                            <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="zkS-nz-siD" secondAttribute="trailing" constant="1" id="cxY-Aw-xDH"/>
+                            <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="zkS-nz-siD" secondAttribute="trailing" constant="-6" id="cxY-Aw-xDH"/>
                             <constraint firstItem="ir7-5x-8Dp" firstAttribute="top" secondItem="HAU-43-v0u" secondAttribute="bottom" id="d55-RZ-qZV"/>
                             <constraint firstItem="tvR-kt-QHF" firstAttribute="top" secondItem="5zu-Iq-2ZY" secondAttribute="top" constant="126" id="fms-GP-Pw5"/>
                             <constraint firstItem="dZu-vj-MQ2" firstAttribute="top" secondItem="tvR-kt-QHF" secondAttribute="bottom" constant="213" id="it6-YA-JxX"/>
                             <constraint firstItem="tvR-kt-QHF" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" id="jeD-ed-BtD"/>
                             <constraint firstItem="eJV-Zg-lDA" firstAttribute="centerX" secondItem="5zu-Iq-2ZY" secondAttribute="centerX" id="k4Z-Me-ILz"/>
                             <constraint firstItem="HAU-43-v0u" firstAttribute="top" secondItem="zkS-nz-siD" secondAttribute="bottom" id="kc2-5A-De2"/>
+                            <constraint firstItem="HAU-43-v0u" firstAttribute="trailing" secondItem="5zu-Iq-2ZY" secondAttribute="trailing" id="khQ-Is-Yf2"/>
+                            <constraint firstItem="DQO-7t-rEV" firstAttribute="trailing" secondItem="5zu-Iq-2ZY" secondAttribute="trailing" id="mrp-5a-vS8"/>
                             <constraint firstItem="HAU-43-v0u" firstAttribute="leading" secondItem="5zu-Iq-2ZY" secondAttribute="leading" id="oAf-76-dMS"/>
-                            <constraint firstItem="DQO-7t-rEV" firstAttribute="leading" secondItem="ir7-5x-8Dp" secondAttribute="trailing" constant="-1" id="ofI-4x-BqZ"/>
+                            <constraint firstItem="DQO-7t-rEV" firstAttribute="leading" secondItem="ir7-5x-8Dp" secondAttribute="trailing" id="ofI-4x-BqZ"/>
                             <constraint firstItem="dZu-vj-MQ2" firstAttribute="centerX" secondItem="5zu-Iq-2ZY" secondAttribute="centerX" id="pUA-2j-d4G"/>
                             <constraint firstItem="5zu-Iq-2ZY" firstAttribute="trailing" secondItem="tvR-kt-QHF" secondAttribute="trailing" id="qZ3-rd-Hd1"/>
                             <constraint firstItem="DQO-7t-rEV" firstAttribute="top" secondItem="5zu-Iq-2ZY" secondAttribute="top" constant="71" id="rHY-RM-Vd3"/>
@@ -1099,7 +1101,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2497" y="-1433"/>
+            <point key="canvasLocation" x="2496.8000000000002" y="-1433.433283358321"/>
         </scene>
     </scenes>
     <resources>

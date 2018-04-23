@@ -108,6 +108,7 @@ class ViewControllerNaranja: UIViewController, AVCaptureVideoDataOutputSampleBuf
     
     override func viewWillAppear(_ animated: Bool) {
         gameHasStarted = false
+        tapToPlayLabel.isHidden = false
         
     }
     
@@ -121,7 +122,7 @@ class ViewControllerNaranja: UIViewController, AVCaptureVideoDataOutputSampleBuf
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else
         {return}
         
-        guard let model = try? VNCoreMLModel(for: ModelBW().model)else{return}
+        guard let model = try? VNCoreMLModel(for: LSM_resnet().model)else{return}
         
         let request = VNCoreMLRequest(model: model){(prediction, error) in
             
@@ -152,9 +153,13 @@ class ViewControllerNaranja: UIViewController, AVCaptureVideoDataOutputSampleBuf
     
      // MARK: - Start y Stop
     @IBAction func startPlaying(_ sender: Any) {
-        lifes = 2
+        if (lifes == 0){
+            lifes = 2
+        }
         currentLetterLabel.isHidden = false
         predictedLetterLabel.isHidden = false
+        tapToPlayLabel.isHidden = true
+
 
         timer = Timer.scheduledTimer(timeInterval: 2.5, target: self, selector: #selector(self.isSameLetter), userInfo: nil, repeats: true)
     }
@@ -162,6 +167,8 @@ class ViewControllerNaranja: UIViewController, AVCaptureVideoDataOutputSampleBuf
     func stopPlaying(){
         currentLetterLabel.isHidden = true
         predictedLetterLabel.isHidden = true
+        tapToPlayLabel.isHidden = false
+
 
         self.timer?.invalidate()
         timer = Timer()
