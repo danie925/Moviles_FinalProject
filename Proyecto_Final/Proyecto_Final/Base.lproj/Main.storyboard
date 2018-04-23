@@ -586,25 +586,25 @@
                                 <rect key="frame" x="16" y="352" width="314" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Según la CONAPRED, el lenguaje nos da la posibilidad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGp-3J-yE0">
+                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="El enguaje nos da la posibilidad de relacionarnos con" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGp-3J-yE0">
                                         <rect key="frame" x="0.0" y="0.0" width="314" height="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="de relacionarnos con otras personas, de reconocernos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="80v-3C-NVa">
+                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="otras personas, de reconocernos y de reinventarnos." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="80v-3C-NVa">
                                         <rect key="frame" x="0.0" y="24" width="314" height="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="y de reinvernarnos. El lenguaje nos da la posibilidad de" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xFF-0x-xVD">
+                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="El lenguaje nos da la posibilidad de diversificar nuestro" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xFF-0x-xVD">
                                         <rect key="frame" x="0.0" y="48" width="314" height="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="diversificar nuestro mundo y entorno social." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AQx-II-KhV">
+                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="mundo y entorno social." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AQx-II-KhV">
                                         <rect key="frame" x="0.0" y="72" width="314" height="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -646,6 +646,13 @@
                                     <segue destination="zsd-Dg-hev" kind="unwind" unwindAction="unwindInformacionWithUnwindSegue:" id="xMv-h7-rDL"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CONAPRED (2011)." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cWk-LK-hF2">
+                                <rect key="frame" x="16" y="632" width="314" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.73641479015350342" green="0.2890399694442749" blue="0.50294721126556396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -670,23 +677,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBx-Fq-3eD">
                                 <rect key="frame" x="0.0" y="438" width="375" height="229"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXa-1M-bTb">
-                                        <rect key="frame" x="16" y="189" width="91" height="32"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <state key="normal" title="Información">
-                                            <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="V4P-43-C6t" kind="show" id="Vny-fU-Rex"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="bXa-1M-bTb" firstAttribute="leading" secondItem="GBx-Fq-3eD" secondAttribute="leading" constant="16" id="CM2-Dd-7lN"/>
-                                    <constraint firstAttribute="bottom" secondItem="bXa-1M-bTb" secondAttribute="bottom" constant="8" id="FFF-hu-q48"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYL-4j-PZ0">
                                 <rect key="frame" x="29" y="287" width="317" height="269"/>
@@ -730,6 +721,16 @@
                                     <segue destination="dgZ-fR-h3b" kind="show" id="xH6-WK-fdy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXa-1M-bTb">
+                                <rect key="frame" x="16" y="20" width="91" height="32"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Información">
+                                    <color key="titleColor" red="0.65779668092727661" green="0.18976610898971558" blue="0.38769721984863281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="V4P-43-C6t" kind="show" id="Vny-fU-Rex"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.60547083616256714" blue="0.20945289731025696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -739,15 +740,19 @@
                             <constraint firstItem="VXJ-PB-dtD" firstAttribute="centerY" secondItem="iYL-4j-PZ0" secondAttribute="centerY" constant="1.5" id="7mp-zR-HA8"/>
                             <constraint firstItem="VXJ-PB-dtD" firstAttribute="centerX" secondItem="GBx-Fq-3eD" secondAttribute="centerX" id="8cE-UK-PjR"/>
                             <constraint firstItem="iYL-4j-PZ0" firstAttribute="top" secondItem="Kyl-ax-xfV" secondAttribute="top" constant="267" id="H2t-ap-wEY"/>
+                            <constraint firstItem="bXa-1M-bTb" firstAttribute="leading" secondItem="Kyl-ax-xfV" secondAttribute="leading" constant="16" id="IDN-CX-yAV"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="leading" secondItem="Kyl-ax-xfV" secondAttribute="leading" id="J12-EZ-6RF"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="bottom" secondItem="Kyl-ax-xfV" secondAttribute="bottom" id="MJe-ZO-UKP"/>
+                            <constraint firstItem="bXa-1M-bTb" firstAttribute="top" secondItem="Kyl-ax-xfV" secondAttribute="top" id="OEE-UT-bse"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="centerX" secondItem="iYL-4j-PZ0" secondAttribute="centerX" id="WCa-y3-qLL"/>
                             <constraint firstItem="iYL-4j-PZ0" firstAttribute="leading" secondItem="Kyl-ax-xfV" secondAttribute="leading" constant="29" id="Xdp-Oi-mV4"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="bottom" secondItem="Kyl-ax-xfV" secondAttribute="bottom" id="cCd-yg-4IB"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="bottom" secondItem="Kyl-ax-xfV" secondAttribute="bottom" id="cOa-Y4-HEt"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="trailing" secondItem="Kyl-ax-xfV" secondAttribute="trailing" id="fH8-ee-Kpl"/>
+                            <constraint firstItem="bXa-1M-bTb" firstAttribute="leading" secondItem="ye0-c5-yws" secondAttribute="leading" constant="16" id="l1n-oh-5Nb"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="leading" secondItem="Kyl-ax-xfV" secondAttribute="leading" id="nJR-pK-Wpf"/>
                             <constraint firstItem="GBx-Fq-3eD" firstAttribute="trailing" secondItem="Kyl-ax-xfV" secondAttribute="trailing" id="opF-dw-gdX"/>
+                            <constraint firstAttribute="bottom" secondItem="bXa-1M-bTb" secondAttribute="bottom" constant="615" id="pjt-Uk-K5R"/>
                             <constraint firstItem="Kyl-ax-xfV" firstAttribute="bottom" secondItem="iYL-4j-PZ0" secondAttribute="bottom" constant="111" id="wmx-ZV-04S"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kyl-ax-xfV"/>
