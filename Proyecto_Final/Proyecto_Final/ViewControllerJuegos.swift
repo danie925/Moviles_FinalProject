@@ -117,7 +117,7 @@ class ViewControllerNaranja: UIViewController, AVCaptureVideoDataOutputSampleBuf
     }
     
     
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+    /*func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else
         {return}
         
@@ -148,7 +148,7 @@ class ViewControllerNaranja: UIViewController, AVCaptureVideoDataOutputSampleBuf
     
         try? VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
         
-    }
+    }*/
     
      // MARK: - Start y Stop
     @IBAction func startPlaying(_ sender: Any) {

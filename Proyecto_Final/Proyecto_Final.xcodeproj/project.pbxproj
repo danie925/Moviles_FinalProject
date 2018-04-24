@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		119BDFD2208437E700759C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119BDFD1208437E700759C16 /* AppDelegate.swift */; };
-		119BDFD4208437E700759C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119BDFD3208437E700759C16 /* ViewController.swift */; };
+		119BDFD4208437E700759C16 /* ViewControllerBienvenidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119BDFD3208437E700759C16 /* ViewControllerBienvenidos.swift */; };
 		119BDFD7208437E700759C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119BDFD5208437E700759C16 /* Main.storyboard */; };
 		119BDFD9208437E700759C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119BDFD8208437E700759C16 /* Assets.xcassets */; };
 		119BDFDC208437E700759C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119BDFDA208437E700759C16 /* LaunchScreen.storyboard */; };
 		11A536562085A23A00461312 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A536552085A23A00461312 /* ViewController2.swift */; };
-		11A536582085A25100461312 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A536572085A25100461312 /* ViewController3.swift */; };
+		11A536582085A25100461312 /* ViewControllerMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A536572085A25100461312 /* ViewControllerMenu1.swift */; };
 		11A5365A2085A2E200461312 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A536592085A2E200461312 /* TableViewController.swift */; };
-		11CDB1332086703F005F8DB4 /* ViewControllerNaranja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */; };
+		11CDB1332086703F005F8DB4 /* ViewControllerJuegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB1322086703F005F8DB4 /* ViewControllerJuegos.swift */; };
 		11CDB13520867046005F8DB4 /* ViewControllerAzul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */; };
 		11F2FD4A2087EE2F00DD2A5A /* ViewControllerScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */; };
 		11F2FD4C2087F3F300DD2A5A /* j.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD4B2087F3F300DD2A5A /* j.mp4 */; };
@@ -26,23 +26,21 @@
 		11F2FD562087F41000DD2A5A /* x.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD552087F41000DD2A5A /* x.mp4 */; };
 		11F2FD582087F41600DD2A5A /* z.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11F2FD572087F41600DD2A5A /* z.mp4 */; };
 		DE6D59AB208D76BD007D6B48 /* LSM_resnet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59AA208D76BD007D6B48 /* LSM_resnet.mlmodel */; };
-		DE6D59B0208D8306007D6B48 /* ModelBW.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59AF208D8306007D6B48 /* ModelBW.mlmodel */; };
-		DE6D59B2208D952F007D6B48 /* Mobile_NetCM.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59B1208D952F007D6B48 /* Mobile_NetCM.mlmodel */; };
-		DE6D59B8208DA3EC007D6B48 /* MobileNet_CM17.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6D59B7208DA3EC007D6B48 /* MobileNet_CM17.mlmodel */; };
+		FB1F746F208FDDB200DDDD86 /* TableViewControllerAntecedente.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F746E208FDDB200DDDD86 /* TableViewControllerAntecedente.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		119BDFCE208437E600759C16 /* Proyecto_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119BDFD1208437E700759C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		119BDFD3208437E700759C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		119BDFD3208437E700759C16 /* ViewControllerBienvenidos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBienvenidos.swift; sourceTree = "<group>"; };
 		119BDFD6208437E700759C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		119BDFD8208437E700759C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119BDFDB208437E700759C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119BDFDD208437E700759C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11A536552085A23A00461312 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		11A536572085A25100461312 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		11A536572085A25100461312 /* ViewControllerMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu1.swift; sourceTree = "<group>"; };
 		11A536592085A2E200461312 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNaranja.swift; sourceTree = "<group>"; };
+		11CDB1322086703F005F8DB4 /* ViewControllerJuegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerJuegos.swift; sourceTree = "<group>"; };
 		11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAzul.swift; sourceTree = "<group>"; };
 		11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScroll.swift; sourceTree = "<group>"; };
 		11F2FD4B2087F3F300DD2A5A /* j.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = j.mp4; sourceTree = "<group>"; };
@@ -53,9 +51,7 @@
 		11F2FD552087F41000DD2A5A /* x.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = x.mp4; sourceTree = "<group>"; };
 		11F2FD572087F41600DD2A5A /* z.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = z.mp4; sourceTree = "<group>"; };
 		DE6D59AA208D76BD007D6B48 /* LSM_resnet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LSM_resnet.mlmodel; sourceTree = "<group>"; };
-		DE6D59AF208D8306007D6B48 /* ModelBW.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ModelBW.mlmodel; path = ../../../../../../LSM_Completo/ModelBW.mlmodel; sourceTree = "<group>"; };
-		DE6D59B1208D952F007D6B48 /* Mobile_NetCM.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mobile_NetCM.mlmodel; path = ../../../../../../LSM_Completo/Mobile_NetCM.mlmodel; sourceTree = "<group>"; };
-		DE6D59B7208DA3EC007D6B48 /* MobileNet_CM17.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet_CM17.mlmodel; path = "../../../../../../sign2text-master/MobileNet_CM17.mlmodel"; sourceTree = "<group>"; };
+		FB1F746E208FDDB200DDDD86 /* TableViewControllerAntecedente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerAntecedente.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +94,13 @@
 				11F2FD492087EE2F00DD2A5A /* ViewControllerScroll.swift */,
 				11A536552085A23A00461312 /* ViewController2.swift */,
 				119BDFD1208437E700759C16 /* AppDelegate.swift */,
-				119BDFD3208437E700759C16 /* ViewController.swift */,
+				119BDFD3208437E700759C16 /* ViewControllerBienvenidos.swift */,
 				119BDFD5208437E700759C16 /* Main.storyboard */,
-				11CDB1322086703F005F8DB4 /* ViewControllerNaranja.swift */,
+				11CDB1322086703F005F8DB4 /* ViewControllerJuegos.swift */,
 				11CDB13420867046005F8DB4 /* ViewControllerAzul.swift */,
 				11A536592085A2E200461312 /* TableViewController.swift */,
-				11A536572085A25100461312 /* ViewController3.swift */,
+				FB1F746E208FDDB200DDDD86 /* TableViewControllerAntecedente.swift */,
+				11A536572085A25100461312 /* ViewControllerMenu1.swift */,
 				DE6D59AE208D82D2007D6B48 /* Models */,
 				119BDFD8208437E700759C16 /* Assets.xcassets */,
 				119BDFDA208437E700759C16 /* LaunchScreen.storyboard */,
@@ -115,9 +112,6 @@
 		DE6D59AE208D82D2007D6B48 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DE6D59B7208DA3EC007D6B48 /* MobileNet_CM17.mlmodel */,
-				DE6D59B1208D952F007D6B48 /* Mobile_NetCM.mlmodel */,
-				DE6D59AF208D8306007D6B48 /* ModelBW.mlmodel */,
 				DE6D59AA208D76BD007D6B48 /* LSM_resnet.mlmodel */,
 			);
 			path = Models;
@@ -203,18 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE6D59B8208DA3EC007D6B48 /* MobileNet_CM17.mlmodel in Sources */,
+				FB1F746F208FDDB200DDDD86 /* TableViewControllerAntecedente.swift in Sources */,
 				DE6D59AB208D76BD007D6B48 /* LSM_resnet.mlmodel in Sources */,
-				119BDFD4208437E700759C16 /* ViewController.swift in Sources */,
+				119BDFD4208437E700759C16 /* ViewControllerBienvenidos.swift in Sources */,
 				119BDFD2208437E700759C16 /* AppDelegate.swift in Sources */,
-				11CDB1332086703F005F8DB4 /* ViewControllerNaranja.swift in Sources */,
-				DE6D59B0208D8306007D6B48 /* ModelBW.mlmodel in Sources */,
+				11CDB1332086703F005F8DB4 /* ViewControllerJuegos.swift in Sources */,
 				11F2FD4A2087EE2F00DD2A5A /* ViewControllerScroll.swift in Sources */,
 				11CDB13520867046005F8DB4 /* ViewControllerAzul.swift in Sources */,
-				11A536582085A25100461312 /* ViewController3.swift in Sources */,
+				11A536582085A25100461312 /* ViewControllerMenu1.swift in Sources */,
 				11A5365A2085A2E200461312 /* TableViewController.swift in Sources */,
 				11A536562085A23A00461312 /* ViewController2.swift in Sources */,
-				DE6D59B2208D952F007D6B48 /* Mobile_NetCM.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +350,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KA79L534CU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Proyecto_Final/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -378,7 +370,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KA79L534CU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Proyecto_Final/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
