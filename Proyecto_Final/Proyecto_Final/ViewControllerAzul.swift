@@ -36,16 +36,26 @@ class ViewControllerAzul: UIViewController {
     
     
     var abecedario = [#imageLiteral(resourceName: "juego_a"), #imageLiteral(resourceName: "juego_b"), #imageLiteral(resourceName: "juego_c"), #imageLiteral(resourceName: "juego_d"), #imageLiteral(resourceName: "juego_e"), #imageLiteral(resourceName: "juego_f"), #imageLiteral(resourceName: "juego_g"), #imageLiteral(resourceName: "juego_h"), #imageLiteral(resourceName: "juego_i"), #imageLiteral(resourceName: "juego_j"), #imageLiteral(resourceName: "juego_k"), #imageLiteral(resourceName: "juego_l"), #imageLiteral(resourceName: "juego_m"), #imageLiteral(resourceName: "juego_n"), #imageLiteral(resourceName: "juego_ñ-1"), #imageLiteral(resourceName: "juego_o"), #imageLiteral(resourceName: "juego_p"), #imageLiteral(resourceName: "juego_q"), #imageLiteral(resourceName: "juego_r"), #imageLiteral(resourceName: "juego_s"), #imageLiteral(resourceName: "juego_t"), #imageLiteral(resourceName: "juego_u"), #imageLiteral(resourceName: "juego_v"), #imageLiteral(resourceName: "juego_w"), #imageLiteral(resourceName: "juego_x"), #imageLiteral(resourceName: "juego_y"), #imageLiteral(resourceName: "juego_z")]
-    var posiciones = Array(repeating: -1, count: "palabra".count)
-    var letras = Array(repeating: #imageLiteral(resourceName: "juego_a"), count: 20)
+    var imagenes_en_pantalla = Array(repeating: #imageLiteral(resourceName: "juego_a"), count: 20)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let posiciones = asigna_posiciones_de_letras(palabra: "palabra")
+        
+    }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+    func asigna_posiciones_de_letras(palabra : String){
+        var posiciones = Array(repeating: -1, count: palabra.count)
         var posicion_random : UInt32!
         var existe : Bool!
         var guardado : Bool!
-        for i in 0..<("palabra".count){
+        for i in 0..<(palabra.count){
             guardado = false
             while !guardado{
                 posicion_random = arc4random_uniform(20)
@@ -63,16 +73,8 @@ class ViewControllerAzul: UIViewController {
                     print("posicion: ", posiciones[i])
                 }
             }
-            
         }
-        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
     /*
     // MARK: - Navigation
