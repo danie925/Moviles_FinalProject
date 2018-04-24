@@ -89,9 +89,7 @@ class ViewControllerScroll: UIViewController, UIScrollViewDelegate {
     
     }
     
-    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return self.imgA
-    }
+    
 
     /*
     // MARK: - Navigation

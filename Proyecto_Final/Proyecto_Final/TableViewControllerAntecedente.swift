@@ -1,48 +1,51 @@
 //
-//  TableViewController.swift
+//  TableViewController2.swift
 //  Proyecto_Final
 //
-//  Created by Daniela Diaz on 4/16/18.
+//  Created by alumno on 4/24/18.
 //  Copyright © 2018 Daniela Diaz. All rights reserved.
 //
 
 import UIKit
 
-class TableViewController: UITableViewController {
-
-    var imagenes_abecedario = [#imageLiteral(resourceName: "a"), #imageLiteral(resourceName: "b"), #imageLiteral(resourceName: "c"), #imageLiteral(resourceName: "d"),#imageLiteral(resourceName: "e"), #imageLiteral(resourceName: "f"), #imageLiteral(resourceName: "g"), #imageLiteral(resourceName: "h"), #imageLiteral(resourceName: "i"), #imageLiteral(resourceName: "l"), #imageLiteral(resourceName: "m"), #imageLiteral(resourceName: "n"), #imageLiteral(resourceName: "o"), #imageLiteral(resourceName: "p"), #imageLiteral(resourceName: "r"), #imageLiteral(resourceName: "s"), #imageLiteral(resourceName: "t"), #imageLiteral(resourceName: "u"), #imageLiteral(resourceName: "v"), #imageLiteral(resourceName: "w"), #imageLiteral(resourceName: "y")]
+class TableViewController2: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return imagenes_abecedario.count + 7
+        return 0
     }
 
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell1 = tableView.dequeueReusableCell(withIdentifier: "cell_image", for: indexPath)
-        let cell2 = tableView.dequeueReusableCell(withIdentifier: "cell_video", for: indexPath)
-        
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
 
-        return cell1
+        return cell
     }
+    */
 
     /*
     // Override to support conditional editing of the table view.
