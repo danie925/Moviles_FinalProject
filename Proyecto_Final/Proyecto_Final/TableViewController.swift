@@ -9,7 +9,7 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
+    
     var imagenes_abecedario = [#imageLiteral(resourceName: "a"), #imageLiteral(resourceName: "b"), #imageLiteral(resourceName: "c"), #imageLiteral(resourceName: "d"),#imageLiteral(resourceName: "e"), #imageLiteral(resourceName: "f"), #imageLiteral(resourceName: "g"), #imageLiteral(resourceName: "h"), #imageLiteral(resourceName: "i"), #imageLiteral(resourceName: "l"), #imageLiteral(resourceName: "m"), #imageLiteral(resourceName: "n"), #imageLiteral(resourceName: "o"), #imageLiteral(resourceName: "p"), #imageLiteral(resourceName: "r"), #imageLiteral(resourceName: "s"), #imageLiteral(resourceName: "t"), #imageLiteral(resourceName: "u"), #imageLiteral(resourceName: "v"), #imageLiteral(resourceName: "w"), #imageLiteral(resourceName: "y")]
 
     override func viewDidLoad() {
@@ -32,18 +32,20 @@ class TableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return imagenes_abecedario.count + 7
     }
-
+/*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell1 = tableView.dequeueReusableCell(withIdentifier: "cell_image", for: indexPath)
         let cell2 = tableView.dequeueReusableCell(withIdentifier: "cell_video", for: indexPath)
         
+        if cell1 =
         
 
         // Configure the cell...
 
         return cell1
     }
-
+*/
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
